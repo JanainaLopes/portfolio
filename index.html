@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Computer Technician & FullStack</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="container hero">
+        <div class="left-content">
+            <h1 class="name">Janaina Maria Mesquita Lopes</h1>
+            <h2 class="subtitle">Computer Technician and FullStack Developer</h2>
+            <p class="intro-phrase">Conheça um pouco sobre mim!</p>
+            <p class="career-summary">
+                Com sólida base técnica em hardware e infraestrutura, migrei para o desenvolvimento 
+                FullStack criando aplicações eficientes e escaláveis. Unindo o conhecimento de 
+                suporte técnico à lógica de programação para entregar soluções completas.
+            </p>
+            <a href="#contato" class="chat-link">Vamos conversar</a>
+        </div>
+
+        <div class="right-content">
+            <div class="social-header">
+                <a href="https://github.com" target="_blank"><i class="fa-brands fa-github icon-git"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin icon-link"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram icon-insta"></i></a>
+            </div>
+            <div class="photo-circle">
+                </div>
+        </div>
+    </section>
+
+    <hr class="gray-line">
+
+    <section class="container">
+        <div class="tech-row-center">
+            <i class="devicon-html5-plain colored"></i>
+            <i class="devicon-css3-plain colored"></i>
+            <i class="devicon-javascript-plain colored"></i>
+            <i class="devicon-figma-plain colored"></i>
+            <i class="devicon-react-original colored"></i>
+            <i class="devicon-nodejs-plain colored"></i>
+        </div>
+
+        <div class="experience-grid">
+            <div class="exp-box"><strong>HTML</strong> <span>4 Anos de Exp.</span></div>
+            <div class="exp-box"><strong>CSS</strong> <span>4 Anos de Exp.</span></div>
+            <div class="exp-box"><strong>JavaScript</strong> <span>3 Anos de Exp.</span></div>
+            <div class="exp-box"><strong>Figma</strong> <span>2 Anos de Exp.</span></div>
+            <div class="exp-box"><strong>React.js</strong> <span>2 Anos de Exp.</span></div>
+            <div class="exp-box"><strong>Node.js</strong> <span>2 Anos de Exp.</span></div>
+        </div>
+    </section>
+
+    <hr class="gray-line">
+
+    <section class="container">
+        <h2 class="section-title">Meus Projetos</h2>
+        <div class="projects-list">
+            <div class="project-item">
+                <div class="project-info">
+                    <h3>Dashboard de Vendas</h3>
+                    <p>Tecnologias: React, Node.js, PostgreSQL</p>
+                </div>
+                <a href="https://github.com/seu-user/projeto1" target="_blank" class="git-btn"><i class="fa-brands fa-github"></i> Ver Repo</a>
+            </div>
+            <div class="project-item">
+                <div class="project-info">
+                    <h3>API Rest FullStack</h3>
+                    <p>Tecnologias: JavaScript, Express, MongoDB</p>
+                </div>
+                <a href="https://github.com/seu-user/projeto2" target="_blank" class="git-btn"><i class="fa-brands fa-github"></i> Ver Repo</a>
+            </div>
+        </div>
+    </section>
+
+    <hr class="gray-line">
+
+    <section class="container contact-section" id="contato">
+        <div class="contact-left">
+            <h2 class="contact-name">Vamos conversar</h2>
+            <p class="contact-sub">Tire suas dúvidas ou verifique minha disponibilidade para novos projetos.</p>
+        </div>
+        <div class="contact-right">
+            <form id="portfolioForm">
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Mensagem" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
